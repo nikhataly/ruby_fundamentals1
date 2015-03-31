@@ -3,5 +3,5 @@ name = gets.capitalize.strip
 puts "Hi #{name}!"
 puts "What is your age?"
 n = gets.to_i
-age= 2015-n
-puts "You were born in #{age}"
+time=Time.now
+puts "You were born in #{time.year-n}"
